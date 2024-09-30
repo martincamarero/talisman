@@ -21,6 +21,9 @@ a[href^="tel"] {
     color: inherit; /* Cambia el color del enlace */
     text-decoration: none; /* Elimina la decoración */
 }
+span, p, div {
+    text-decoration: none;
+}
 header {
     height: 10rem;
     width: 100%;
