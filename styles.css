@@ -1,0 +1,544 @@
+:root{
+    --talisman-font: 'Aclonica', sans-serif;
+    --textos-font: 'Open Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+    
+    position: relative;
+    
+}
+
+header {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem; /* 2 */
+    margin-bottom: 0.2rem; /* 1 */
+}
+.enlaceLogo{
+    width: 60%;
+}
+.logo {
+    width: 100%;
+}
+.botonesHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.botonHeader{
+    border-radius: 10px;
+    border: none;
+    padding: .5rem;
+    font-family: var(--talisman-font);
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    backface-visibility: hidden; /* Mejora la calidad del texto */
+    will-change: transform;
+    color: white;
+
+
+}
+.botonHeader:hover{
+    transform: scale(1.1);
+}
+.talisman{
+    background-color: #703380;
+    padding-left: 20px; /* 40 */
+}
+.actividades{
+    background-color: #EEA03B;
+}
+.contacto{
+    background-color: #00AA8D;
+    padding-right: 20px; /* 40 */
+}
+.primerComponente {
+    height: 20rem;
+    width: 100%;
+    margin-top: 3rem;
+    position: relative;
+    
+}
+.arcoirisNormal{
+    height: 50%;
+    width: 100%;
+    display: block;
+}
+.arcoirisNormal2 {
+    margin-top: -5px;
+}
+.primerTexto {
+    position: absolute; /* Establecer posición absoluta para el párrafo */
+    top: 42%; /* Colocar el párrafo en el 50% de la altura del contenedor */
+    left: 50%; /* Colocar el párrafo en el 50% del ancho del contenedor */
+    transform: translate(-50%, -50%); /* Moverlo hacia atrás la mitad de su propio ancho y altura */
+    text-align: center; /* Centrar el texto */
+    color: white; /* Cambiar color del texto si es necesario */
+    background: rgba(0, 0, 0, 0.5); /* Añadir un fondo semi-transparente (opcional) */
+    font-family: var(--textos-font);
+    width: 80%;
+    font-size: 16px;
+    background-color: transparent;
+    
+    
+}
+
+.apartadoTalisman{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: var(--talisman-font);
+    text-align: center;
+}
+h3{
+    font-family: var(--textos-font);
+}
+p {
+    font-family: var(--textos-font);
+    font-size: 16px;
+}
+.parrafoQuienesSomos{
+    
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.apartadoTalisman2{
+    width: 100%;
+    height: 15vh;
+    
+}
+.arcoirisTrasparente{
+    width: 100%;
+    height: 100%;
+    margin-top: 32px;
+    position: relative;
+    z-index: 5;
+}
+.apartadoActividades{
+    background-color: #000;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.tituloActividades{
+    margin-bottom: 30px;
+}
+.actividadesArtisticas{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tituloArtisticas{
+    background-color: #EEA03B;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 150px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0;
+    
+}
+.fotoArtistica{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.parrafoArtistica{
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+}
+.tituloFisica{
+    background-color: #703380;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+
+    margin-bottom: 0;
+}
+.tituloCognitivas{
+    background-color: #00AA8D;
+    text-align: right;
+    margin-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-right: 20px;
+
+    margin-bottom: 0;
+}
+.arcoirisAbajoArcoiris{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -70px;
+    height: 200px;
+    
+}
+.arcoirisFotoAbajoArcoiris{
+    width: 100%;
+    height: 100%;
+}
+.contenedorContacto{
+    text-align: center;
+}
+.tituloContacto{
+    margin-top: 40px;
+}
+.arcoirisFinalContenedor{
+    height: 25vh;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.arcoirisFinal{
+    height: 100%;
+    width: 100%;
+}
+.sol1 {
+    width: 90px;
+    position: absolute;
+    top: -1%;
+    left: 80%;
+}
+.sol2 {
+    width: 100px;
+    position: absolute;
+    top: 4%;
+}
+.sol3 {
+    width: 80px;
+    position: absolute;
+    top: 7%;
+    left: 70%;
+}
+.sol4 {
+    width: 80px;
+    position: absolute;
+    top: 15.5%;
+    left: 10%;
+}
+.sol5 {
+    width: 70px;
+    position: absolute;
+    top: 28%;
+    left: 78%;
+}
+.sol6 {
+    width: 100px;
+    position: absolute;
+    top: 85.5%;
+    left: -4%;
+}
+.sol7 {
+    width: 80px;
+    position: absolute;
+    top: 88.5%;
+    left: 74%;
+    z-index: 0;
+}
+.sol8 {
+    width: 60px;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+}
+
+/* media queries hacer lo de arriba a width 320
+    luego 400 que es como esta ahora,
+    luego
+
+*/
+@media (min-height: 300px) {
+    .primerTexto {
+        font-size: 18px;
+    }
+}
+@media (min-width: 350px) {
+    .primerTexto {
+        font-size: 18px;
+    }
+    .sol4 {
+        width: 80px;
+        position: absolute;
+        top: 15.5%;
+        left: 10%;
+    }
+    .sol7{
+        top: 89%;
+    }
+    .sol8 {
+        width: 60px;
+        position: absolute;
+        top: 93%;
+        left: 35%;
+    }
+}
+
+@media (min-width: 380px) {
+    .botonHeader{
+        padding: .8rem;
+    }
+    .primerTexto {
+        font-size: 20px;
+        top: 45%;
+    }
+    p {
+        font-size: 18px;
+    }
+    .sol4 {
+        width: 80px;
+        position: absolute;
+        top: 15.5%;
+        left: 10%;
+    }
+    .sol8 {
+        width: 60px;
+        position: absolute;
+        top: 93.5%;
+        left: 35%;
+    }
+    
+}
+@media (min-width: 700px) {
+    header {
+        margin-top: 2rem; /* 2 */
+        margin-bottom: 2rem; /* 1 */
+    }
+    .primerComponente {
+        height: 35rem;
+        width: 100%;
+        margin-top: 3rem;
+        position: relative;
+        
+    }
+    .apartadoTalisman2{
+        
+        height: 15rem;
+    }
+    .apartadoActividades{
+        margin-top: -2rem;
+    }
+    .botonHeader{
+        padding: 1rem;
+        font-size: 18px;
+    }
+    .talisman{
+        
+        padding-left: 60px; /* 40 */
+        padding-right: 30px;
+    }
+    .actividades{
+        background-color: #EEA03B;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contacto{
+        padding-left: 30px;
+        padding-right: 60px; /* 40 */
+    }
+    .primerTexto {
+        font-size: 28px;
+        top: 45%;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    p {
+        font-size: 26px;
+    }
+    .sol1 {
+        width: 160px;
+        position: absolute;
+        top: -1%;
+        left: 80%;
+    }
+    .sol2 {
+        width: 180px;
+        position: absolute;
+        top: 4%;
+    }
+    .sol3 {
+        width: 140px;
+        position: absolute;
+        top: 7%;
+        left: 70%;
+    }
+    .sol4 {
+        width: 120px;
+        position: absolute;
+        top: 16.5%;
+        left: 10%;
+    }
+    .sol5 {
+        width: 70px;
+        position: absolute;
+        top: 27%;
+        left: 78%;
+    }
+    .sol6 {
+        width: 180px;
+        position: absolute;
+        top: 87.5%;
+        left: -4%;
+    }
+    .sol7 {
+        width: 120px;
+        position: absolute;
+        top: 90.5%;
+        left: 80%;
+        z-index: 0;
+    }
+    .sol8 {
+        display: none;
+    }
+
+}
+@media (min-width: 1100px) {
+    header {
+        margin-top: 5rem; /* 2 */
+        margin-bottom: 5rem; /* 1 */
+    }
+    .primerComponente {
+        height: 40rem;
+        width: 100%;
+        margin-top: 3rem;
+        position: relative;
+        
+    }
+    .primerTexto {
+        font-size: 40px;
+        top: 45%;
+    }
+    h2{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    p {
+        font-size: 40px;
+    }
+    .apartadoTalisman2{
+        
+        height: 20rem;
+    }
+    .apartadoActividades{
+        margin-top: -2rem;
+    }
+    .arcoirisAbajoArcoiris{
+        
+        height: 20rem;
+        margin-bottom: 10rem;
+        
+    }
+    .contenedorContacto{
+        margin-bottom: 10rem;
+    }
+    .arcoirisFinal{
+        height: 25rem;
+    }
+    .sol4 {
+        width: 120px;
+        position: absolute;
+        top: 14.5%;
+        left: 10%;
+    }
+    .sol5 {
+        width: 140px;
+        position: absolute;
+        top: 29%;
+        left: 78%;
+    }
+    .sol6 {
+        width: 220px;
+        position: absolute;
+        top: 87.5%;
+        left: -4%;
+    }
+    .sol7 {
+        width: 160px;
+        position: absolute;
+        top: 90.5%;
+        left: 80%;
+        z-index: 0;
+    }
+    .sol8 {
+        width: 120px;
+        position: absolute;
+        top: 96.5%;
+        left: 35%;
+        display: block;
+    }
+
+
+}
+@media (min-width: 1700px) {
+    header {
+        margin-top: 10rem; /* 2 */
+        margin-bottom: 10rem; /* 1 */
+    }
+    .botonHeader{
+        padding: 2rem;
+        font-size: 30px;
+    }
+    .primerTexto {
+        font-size: 55px;
+        top: 45%;
+    }
+    .primerComponente {
+        height: 50rem;
+        width: 100%;
+        margin-top: 3rem;
+        position: relative;
+        
+    }
+    .talisman{
+        
+        padding-left: 120px; /* 40 */
+        padding-right: 80px;
+    }
+    .actividades{
+        background-color: #EEA03B;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .contacto{
+        padding-left: 80px;
+        padding-right: 120px; /* 40 */
+    }
+    .fotoArtistica{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        
+    }
+ 
+
+    
+}
