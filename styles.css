@@ -13,7 +13,14 @@ body{
     position: relative;
     
 }
-
+a {
+    color: inherit; /* Inherita el color del elemento padre */
+    text-decoration: none; /* Elimina subrayado */
+}
+a[href^="tel"] {
+    color: inherit; /* Cambia el color del enlace */
+    text-decoration: none; /* Elimina la decoración */
+}
 header {
     height: 10rem;
     width: 100%;
